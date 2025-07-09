@@ -55,8 +55,8 @@
         <ul class="social-icons">
           <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/sumit-4b9b5a249/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
           <li><a class="github" aria-label="GitHub" href="https://github.com/Macrogate" target="_blank"><i class="fab fa-github"></i></a></li>
-          <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/aslicecode"><i class="fab fa-instagram" target="_blank"></i></a></li>
-          <li><a class="LeetCode" aria-label="LeetCode" href="https://www.instagram.com/aslicecode"><i class="fab fa-LeetCode" target="_blank"></i></a></li>
+          <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/sumit29449/"><i class="fab fa-instagram" target="_blank"></i></a></li>
+          <li><a class="LeetCode" aria-label="LeetCode" href="https://leetcode.com/u/sumitleet23/"><i class="fab fa-LeetCode" target="_blank"></i></a></li>
         </ul>
       </div>
     </div>
@@ -85,6 +85,11 @@
           I build WebApps and Websites using MERN Stack.
           Working for myself to improve my skills.
           Love to code and build Full-Stack clones. </p>
+
+          <p>Over the course of my studies, I’ve focused on [specific domains like software development, data structures and Algorithms], which has allowed me to build a solid foundation in [specific programming languages or technologies, like Java, HTML, CSS, JavaScript, React.js]. </p>
+
+          <p>In addition to my studies, I’ve worked on various projects, highlighting one of my project its an sudoku solver (built a simple visualize page integrating with basic sorting algorithms).
+          these experience not only enhanced my technical skills but also realize the importance of teamwork and effective  communications. </p>
         
         <div class="box-container">
             <!-- <div class="box">
@@ -140,7 +145,7 @@
 
     <div class="box">
         <div class="image">
-        <img draggable="false" src="./images/education/gla3.jpg" alt="">
+        <img draggable="false" src="./images/education/gla4.jpg" alt="">
         </div>
         <div class="content">
         <h3>GLA University | Mathura</h3>
@@ -220,11 +225,11 @@
     <div class="container right">
       <div class="content">
         <div class="tag">
-          <h2>Content Creator</h2>
+          <h2>Team Lead</h2>
         </div>
         <div class="desc">
-            <h3>techoverflows</h3>
-            <p>June 24- present</p>
+            <h3>Hack CBS - India's Largest Student-run Hackathon</h3>
+            <p>November, 23 -- December, 23</p>
         </div>
       </div>
     </div>
@@ -232,11 +237,11 @@
     <div class="container left">
       <div class="content">
         <div class="tag">
-          <h2>Working</h2>
+          <h2>Team Lead</h2>
         </div>
         <div class="desc">
-            <h3>Software Engineer</h3>
-            <p>Nov 2023 - present</p>
+            <h3>Smart India Hackthon</h3>
+            <p>September, 2023 -- December, 2023</p>
         </div>
       </div>
     </div>
@@ -244,20 +249,24 @@
     <div class="container right">
       <div class="content">
         <div class="tag">
-          <h2>Coaching</h2>
+          <h2>Head Of Innovation Team</h2>
         </div>
         <div class="desc">
-            <h3>Sky Coding Institute</h3>
-            <p>June 24 - present</p>
+            <h3>(CSED Club) GLA University</h3>
+            <p>August, 23 -- August, 24</p>
         </div>
       </div>
     </div>
 
-  <div class="morebtn">
+    <!-- view all button -->
+
+  <!-- <div class="morebtn">
     <a href="/experience" class="btn"><span>View All</span>
       <i class="fas fa-arrow-right"></i>
   </a>
-  </div>
+  </div> -->
+
+  <!-- view all Button End -->
 
 </div>
 
@@ -266,7 +275,7 @@
 
 <!-- contact section starts -->
 <section class="contact" id="contact">
-  
+
   <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
 
   <div class="container">
@@ -274,34 +283,41 @@
       <div class="image-box">
         <img draggable="false" src="./images/contact.png" alt="">
       </div>
-    <form id="contact-form">
-      
-      <div class="form-group">
-        <div class="field">
-          <input type="text" name="name" placeholder="Name" required>
-          <i class='fas fa-user'></i>
+
+      <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+        <!-- Web3Forms Access Key -->
+        <input type="hidden" name="access_key" value="760c5a27-1358-4eeb-a4ed-f852ada2a828">
+
+        <div class="form-group">
+          <div class="field">
+            <input type="text" name="name" placeholder="Name" required>
+            <i class='fas fa-user'></i>
+          </div>
+          <div class="field">
+            <input type="email" name="email" placeholder="Email" required>
+            <i class='fas fa-envelope'></i>
+          </div>
+          <div class="field">
+            <input type="text" name="phone" placeholder="Phone">
+            <i class='fas fa-phone-alt'></i>
+          </div>
+          <div class="message">
+            <textarea name="message" placeholder="Message" required></textarea>
+            <i class="fas fa-comment-dots"></i>
+          </div>
         </div>
-        <div class="field">
-          <input type="text" name="email" placeholder="Email" required>
-          <i class='fas fa-envelope'></i>
+
+        <div class="button-area">
+          <button type="submit">
+            Submit <i class="fa fa-paper-plane"></i>
+          </button>
         </div>
-        <div class="field">
-          <input type="text" name="phone" placeholder="Phone">
-          <i class='fas fa-phone-alt'></i>
-        </div>
-        <div class="message">
-        <textarea placeholder="Message" name="message" required></textarea>
-        <i class="fas fa-comment-dots"></i>
-        </div>
-        </div>
-      <div class="button-area">
-        <button type="submit">
-          Submit <i class="fa fa-paper-plane"></i></button>
-      </div>
-    </form>
-  </div>
+      </form>
+    </div>
   </div>
 </section>
+
 <!-- contact section ends -->
 
 
